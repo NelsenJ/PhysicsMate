@@ -19,7 +19,7 @@
    ```bash
    git clone https://github.com/NelsenJ/PhysicsMate.git
    cd PhysicsMate
-````
+   ```
 
 2. Compile kode sumber dan salin resource dengan perintah:
 
