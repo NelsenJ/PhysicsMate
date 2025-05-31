@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="physicsmate.controller.KineticEnergyController">
+    <padding>
+        <Insets top="20" bottom="20" left="40" right="40"/>
+    </padding>
+
+    <Label text="Energi Kinetik (Ek = ½ × m × v²)" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <Label fx:id="descriptionLabel" wrapText="true" style="-fx-font-size: 14px;"/>
+
+    <VBox spacing="8" fx:id="inputBox"/>
+
+    <Button text="Hitung" onAction="#calculate"/>
+    <Label fx:id="resultLabel" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+    <Button text="Switch Variabel yang Dihitung" onAction="#switchMode"/>
+</VBox>
